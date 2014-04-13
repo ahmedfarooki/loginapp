@@ -9,6 +9,7 @@
     }
 
 
+    $userPermissions = 0;
     if (isset($_POST['login']) && isset($_POST['password'])) {
         $userPermissions = checkUserCred($_POST['login'], $_POST['password']);
     }
