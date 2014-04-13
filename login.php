@@ -8,6 +8,7 @@
         }
     }
 
+    print_r($_POST);
 
     $userPermissions = 0;
     if (isset($_POST['login']) && isset($_POST['password'])) {
